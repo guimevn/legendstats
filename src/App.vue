@@ -1,18 +1,23 @@
 <template>
-
-	<div class="bg-green-400 h-screen">
-		<Navbar />
+	<div>
+	  <Navbar />
+	  <div class="relative mt-1">
+		<Sidebar />
+	  </div>
 	</div>
+  </template>
+  
 
-</template>
 
 <script>
 	import Navbar from "./components/Navbar.vue";
+	import Sidebar from "./components/Sidebar.vue";
 
 	export default {
 		name: "App",
 		components: {
 			Navbar,
+			Sidebar,
 		},
 	};
 </script>
