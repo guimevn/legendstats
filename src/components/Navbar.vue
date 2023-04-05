@@ -6,11 +6,11 @@
     <div class="bg-gray-900 text-gray-100 py-3.5 px-6 shadow md:flex justify-between items-center">
 
         <div class="flex items-center">
-            <span class="mr-1 text-xl text-green-500">
+            <span class="mb-1 mr-1 text-xl text-green-500">
                 <i class="bi bi-graph-up-arrow"></i>
             </span>
 
-            <h1 class="text-xl">LegendStats</h1>
+            <h1 class="text-xl font-bold poppins">LegendStats</h1>
         </div>
 
         <span @click="menuOpen()" class="absolute md:hidden right-6 top-1.5 cursor-pointer text-4xl">
@@ -21,7 +21,7 @@
             <!-- for screen reader -->
             <label for="simple-search" class="sr-only">Search</label>
 
-            <div class="relative w-3/5 ml-6">
+            <div class="relative w-3/5 ml-20">
                 <!-- search icon -->
                 <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                     <svg aria-hidden="true" class="w-5 h-5 text-gray-200 dark:text-gray-300" fill="currentColor"
@@ -102,4 +102,7 @@
 </script>
 
 <style>
+    .poppins {
+        font-family: 'Poppins', sans-serif;
+    }
 </style>
