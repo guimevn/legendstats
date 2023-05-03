@@ -5,7 +5,7 @@
 		<Sidebar />
 	  </div>
 	</div>
-  </template>
+</template>
   
 
 
