@@ -2,6 +2,7 @@
     <!-- to-do: optimize my code especially in <a> tag using for each -->
 
     <!-- sidebar -->
+    <!-- teste -->
     <div class="relative flex max-h-screen">
         <div class="absolute inset-y-0 left-0 px-2 py-6 mt-4 ml-2 space-y-6 transition duration-200 ease-in-out transform -translate-x-full bg-gray-900 rounded-lg w-60 text-cyan-100 md:relative md:-translate-x-0">
 
